@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Landing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.Landing__section{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Landing__section_blue{
+    background-color: #0149c2;
+    color: white;
+}
+
+.Landing__section_img{
+    background-image: url('./images/images/background_image.png');
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+
+.Section{
+    width: 940px;
+}
+
+.Section_p-56{
+    padding: 56px;
+}
+
+.Section_p-72{
+    padding: 72px;
+}
+
+.Section__title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0149c2;
+}
+
+.Section__header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+}
+
+.Header__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Menu__link{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 24px;
+    opacity: 0.5;
+    transition: opacity 0.25s ;
+    cursor: pointer;;
+}
+
+.Menu__link:hover{
+    opacity: 1;
+}
+
+.Slider__text{
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.Slider__button{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 900;
+    background-color: white;
+    color: #0149c2;
+    padding: 16px 24px;
+    border-radius: 9px;
+    margin-top: 32px;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+
+.Slider__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Section__slider{
+    padding: 56px 0;
+}
+
+.Section__content{
+    margin-top: 32px;
+}
+
+.Content__text{
+    color: #0149c2;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.Content__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.List__element{
+
+}
+
+.Element__img{
+
+}
+
+.Element__title{
+
+}
+
+.Element__info{
+
+}
